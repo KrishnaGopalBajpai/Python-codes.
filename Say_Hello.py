@@ -1,1 +1,6 @@
 print ('Hello world')
+print ('Rama Krishna')
+Print ('Papa')
+Print ('Maa')
+print ('Govind')
+print ('Babu')
