@@ -66,7 +66,7 @@ enter b400
 120000
 '''
 
-#write a program to take marks of a user 
+#ex-4) write a program to take marks of a user 
 #in english, science and Maths and print 
 #the average of of these marks.
 
@@ -77,14 +77,14 @@ print (type(english_marks))
 print (type(science_marks))
 print (type(maths_marks))
 average = (english_marks+science_marks+maths_marks)/3
-print(average)
+print('average_marks',average)
 
 '''output:-
-english_marks55
-science_marks60  
-maths_marks33
+english_marks90
+science_marks87
+maths_marks74
 <class 'int'>
 <class 'int'>
 <class 'int'>
-49.333333333333336
+average_marks 83.66666666666667
 '''
