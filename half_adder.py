@@ -46,7 +46,19 @@ B = int(input("Enter the value of b :"))
 getResult(A, B)
 
 #log value:- 
-Enter the value of a :1
-Enter the value of b :11
-Sum  10
-Carry 1
+1) Enter the value of a :0
+   Enter the value of b :0
+   Sum  0
+   Carry 0
+2) Enter the value of a :0
+   Enter the value of b :1
+   Sum  1
+   Carry 0
+3) Enter the value of a :0
+   Enter the value of b :1
+   Sum  1
+   Carry 0
+4) Enter the value of a :1
+   Enter the value of b :1
+   Sum  0
+   Carry 1
