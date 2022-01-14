@@ -20,6 +20,28 @@ B = int(input ("Enter the value B:"))
 C = int(input ("Enter the value C:"))
 # passing three inputs of fulladder as arguments to get result function
 fulladder(A, B, C)
+
+#code 2:- 
+# Function to print sum and C-Out
+def fulladder(A, B, C):
+ 
+    # Calculating value of sum
+    Sum = A ^ B ^ C
+    
+    # Calculating value of C-Out
+    C_Out = (A & B)|(C & A) |(B & C)
+ 
+    # printing the values
+    print("Sum = ", Sum)
+    print("C-Out = ", C_Out)
+ 
+ 
+# Driver code
+A = int(input ("Enter the value A:"))
+B = int(input ("Enter the value B:"))
+C = int(input ("Enter the value C:"))
+# passing three inputs of fulladder as arguments to get result function
+fulladder(A, B, C)
   
   
   
